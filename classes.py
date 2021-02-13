@@ -20,7 +20,7 @@ class Flight():
         # essentially == 0
         if not self.open_seats():
             return False
-        self.passengers.append(name)
+        self.passenger.append(name)
         return True
 
     def open_seats(self):
