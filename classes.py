@@ -9,3 +9,11 @@ class Point():
 p = Point(2, 8)
 print(p.x)
 print(p.y)
+
+
+class Flight():
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.passenger = []
+
+flight = Flight(3)
